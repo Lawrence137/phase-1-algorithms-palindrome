@@ -28,8 +28,8 @@ function isPalindrome(word) {
 /*
   Add written explanation of your solution here
 
-  This solution works by first converting the given word to lowercase so that we can compare it with its reverse case-insensitively. 
-  It then creates an empty string to store the reverse of the word and iterates over the characters in the word in reverse order,
+  This solution works by first creating an empty string to store the reverse of the word.
+  Then it iterates over the characters in the word in reverse order,
    appending each character to the reverseWord string.
     Finally, it compares the original word with its reverse and returns true if they are equal and false otherwise.
 */
